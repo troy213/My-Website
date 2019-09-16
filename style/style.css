@@ -1,0 +1,32 @@
+body, h1 {
+  font-family: 'Kaushan Script', cursive;
+}
+
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url("/img/notebook-1280538.jpg");
+  height: 100%;
+}
+
+#about {
+  height: 100%;
+}
+
+#MyNavbar {
+  position: absolute;
+  width: 100%
+}
