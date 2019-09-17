@@ -2,6 +2,10 @@ body, h1 {
   font-family: 'Kaushan Script', cursive;
 }
 
+h2, p {
+  font-family: 'Lato', sans-serif;
+}
+
 body, html {
   height: 100%;
   color: #777;
@@ -23,7 +27,7 @@ body, html {
 }
 
 #about {
-  height: 100%;
+  padding: 70px 150px;
 }
 
 #MyNavbar {
