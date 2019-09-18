@@ -26,11 +26,15 @@ body, html {
   height: 100%;
 }
 
+#MyNavbar {
+  position: absolute;
+  width: 100%;
+}
+
 #about {
   padding: 70px 150px;
 }
 
-#MyNavbar {
-  position: absolute;
-  width: 100%
+#experience {
+  padding: 70px 200px;
 }
