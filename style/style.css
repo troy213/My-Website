@@ -13,7 +13,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2 {
+.bgimg-1, .bgimg-2, .bgimg-CE, .bgimg-MJ {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -30,6 +30,16 @@ body, html {
 .bgimg-2 {
   background-image: url("/img/paper-3164718.jpg");
   height: 60%;
+}
+
+.bgimg-CE {
+  background-image: url("/img/workshop-3430813.jpg");
+  height: 100%;
+}
+
+.bgimg-MJ {
+  background-image: url("/img/workshop-819996.jpg");
+  height: 100%;
 }
 
 #MyNavbar {
