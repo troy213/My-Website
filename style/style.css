@@ -42,6 +42,10 @@ body, html {
   height: 100%;
 }
 
+.col1 {
+  color: lightseagreen;
+}
+
 #MyNavbar {
   position: absolute;
   width: 100%;
@@ -64,5 +68,5 @@ body, html {
 }
 
 #contact {
-  padding: 70px 200px;
+  padding: 50px 200px 20px;
 }
