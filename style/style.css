@@ -1,19 +1,29 @@
-body, h1 {
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+h1 {
   font-family: 'Kaushan Script', cursive;
 }
 
-h2, p {
+h2,
+p {
   font-family: 'Lato', sans-serif;
 }
 
-body, html {
+body,
+html {
   height: 100%;
   color: #777;
   line-height: 1.8;
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-CE, .bgimg-MJ {
+.bgimg-1,
+.bgimg-2,
+.bgimg-CE,
+.bgimg-MJ {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,23 +32,23 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url("../img/notebook-1280538.jpg");
+  background-image: url('../img/notebook-1280538.jpg');
   height: 100%;
 }
 
 /* second image (contact. half height) */
 .bgimg-2 {
-  background-image: url("../img/paper-3164718.jpg");
+  background-image: url('../img/paper-3164718.jpg');
   height: 60%;
 }
 
 .bgimg-CE {
-  background-image: url("../img/workshop-3430813.jpg");
+  background-image: url('../img/workshop-3430813.jpg');
   height: 100%;
 }
 
 .bgimg-MJ {
-  background-image: url("../img/workshop-819996.jpg");
+  background-image: url('../img/workshop-819996.jpg');
   height: 100%;
 }
 
@@ -69,4 +79,46 @@ body, html {
 
 #contact {
   padding: 50px 200px 20px;
+}
+
+.img-thumbnail {
+  max-height: 100%;
+  max-width: 325px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d1d1d1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (max-width: 767px) {
+  div#about,
+  div#experience,
+  div#skills,
+  div#projects,
+  div#contact {
+    padding: 2em;
+  }
+
+  .img-thumbnail {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+  .card-container {
+    margin-bottom: 2em;
+  }
 }

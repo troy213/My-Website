@@ -1,428 +1,651 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Erlangga's Journey</title>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Erlangga's Journey</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icon/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/227fed259e.js"></script>
+  </head>
 
-  <link rel="stylesheet" href="style/style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/227fed259e.js"></script>
-</head>
+  <body>
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-transparent"
+      id="MyNavbar"
+    >
+      <a class="navbar-brand" href="#home">Home</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<body>
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" id="MyNavbar">
-    <a class="navbar-brand" href="#home">Home</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- parallax home -->
-  <div class="bgimg-1" id="home">
-    <div class="row h-100" style="margin: auto">
-      <div class="col-sm-12 my-auto" style="padding-left: 0">
-        <h1 class="display-4 text-light text-center">Erlangga's Journey</h1>
+    <!-- parallax home -->
+    <div class="bgimg-1" id="home">
+      <div class="row h-100" style="margin: auto">
+        <div class="col-sm-12 my-auto" style="padding-left: 0">
+          <h1 class="display-4 text-light text-center">Erlangga's Journey</h1>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- about section -->
-  <div class="text-center" id="about">
-    <h2 class="col1"><strong>About Me</strong></h2>
-    <p class="my-3"><em>I'm a Junior Web Programmer</em></p>
-    <p class="text-justify">I love traveling, acoustic, photography and coffee. I recently
-      graduated with a Computer Science Degree and had an interest in Web Development which offers
-      me the opportunity to develop new skills while strengthening those I already possess. And
-      with more than 5 years of working experience as Senior Office Administrator had enabled me to
-      develop good organizational skills. able to work under pressure and easily adapting to any
-      working environment.</p>
-    <hr class="my-5">
-    <div class="row">
-      <div class="col-sm-12 col-md-6">
-        <img src="img/Tritera_Erlangga_thumbnail.jpg" alt="Tritera_Erlangga" class="img-thumbnail"
-          style="max-height: 380px; max-width: 325px;">
+    <!-- about section -->
+    <div class="text-center" id="about">
+      <h2 class="col1"><strong>About Me</strong></h2>
+      <p class="my-3"><em>I'm a Junior Web Programmer</em></p>
+      <p class="text-justify">
+        I love traveling, acoustic, photography and coffee. I recently graduated
+        with a Computer Science Degree and had an interest in Web Development
+        which offers me the opportunity to develop new skills while
+        strengthening those I already possess. And with more than 5 years of
+        working experience as Senior Office Administrator had enabled me to
+        develop good organizational skills. able to work under pressure and
+        easily adapting to any working environment.
+      </p>
+      <hr class="my-5" />
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <img
+            src="img/Tritera_Erlangga_thumbnail.jpg"
+            alt="Tritera_Erlangga"
+            class="img-thumbnail"
+          />
+        </div>
+        <div class="col-sm-12 col-md-6 text-left pl-5">
+          <h3 class="text-center col1">Details</h3>
+          <br />
+          <p>
+            <strong><i class="fa fa-user pr-2"></i>Name:</strong>
+            <br />
+            Tritera Erlangga
+            <br />
+            <br />
+            <strong><i class="fas fa-calendar-alt pr-2"></i>Age:</strong>
+            <br />
+            <span id="age"></span>
+            <br />
+            <br />
+            <strong><i class="fas fa-map-marker-alt pr-2"></i>Location:</strong>
+            <br />
+            Pamulang, South Tangerang, Banten, Indonesia
+          </p>
+        </div>
       </div>
-      <div class="col-sm-12 col-md-6 text-left pl-5">
-        <h3 class="text-center col1">Details</h3>
-        <br>
-        <p><strong><i class="fa fa-user pr-2"></i>Name:</strong>
-          <br>
-          Tritera Erlangga
-          <br>
-          <br>
-          <strong><i class="fas fa-calendar-alt pr-2"></i>Age:</strong>
-          <br>
-          24 years
-          <br>
-          <br>
-          <strong><i class="fas fa-map-marker-alt pr-2"></i>Location:</strong>
-          <br>
-          Pamulang, South Tangerang, Banten, Indonesia
+      <hr class="my-5" />
+      <p class="text-justify">
+        I have an upcoming project on this website like put my Youtube video, my
+        travel footage and implement all of <em>"Computer Science"</em> stuff
+        like Encryption, Hashing, Compression and many more. We can have a
+        little chit chat and having some coffee if you want! if you consider to
+        support my website, you can click on the link below!
+      </p>
+      <span>
+        <a href="#contact" role="button" class="btn btn-primary btn-sm mr-1"
+          >Contact</a
+        >
+        <a
+          href="https://www.paypal.me/triteraerlangga"
+          role="button"
+          class="btn btn-warning btn-sm ml-1"
+          target="_blank"
+          >Donate</a
+        >
+      </span>
+    </div>
+    <!-- end of about section -->
+
+    <!-- experience section -->
+    <div class="bg-dark" id="experience">
+      <div class="text-light text-center">
+        <h2 class="col1"><strong>Experiences</strong></h2>
+        <p class="my-3">
+          <em
+            >"The single most powerful asset we all have is our mind. if it is
+            trained well, it can create enormous wealth in what seems to be an
+            instant."
+            <br />
+            Robert T. Kiyosaki - Rich Dad Poor Dad</em
+          >
+        </p>
+        <hr class="border-light my-5" />
+        <h3 class="text-left mb-4 col1">Educations</h3>
+        <div class="text-left">
+          <div class="row mb-3">
+            <div class="col-sm-12 col-md-4">
+              <h4>Niomic</h4>
+              <p>Jan 2019 - Current</p>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <h4>Online Coding Bootcamp</h4>
+              <p>
+                The lesson mainly focuses on web programming, even though I
+                already have the basics of web programming on campus, I need to
+                keep learning and practice more, and surely, many things that I
+                didn't learn on campus found here like AWS, GCP, Golang,
+                Chatbot, and I always believe learning from many sources are the
+                best way to improve your knowledge.
+              </p>
+              <em class="col1"
+                ><i class="fas fa-map-marker-alt pr-2"></i>Online</em
+              >
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-sm-12 col-md-4">
+              <h4>Budiluhur University</h4>
+              <p>Sep 2014 - Mar 2018</p>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <h4>Bachelor (S1) - Computer Science</h4>
+              <p>
+                My study was mainly focused on Java-based programming, and my
+                first program was a simple encryption desktop application using
+                a Caesar cipher algorithm. Using the same principle, I learned
+                how to implement AES-256 encryption for database security in my
+                thesis.
+              </p>
+              <em class="col1"
+                ><i class="fas fa-map-marker-alt pr-2"></i>South Jakarta</em
+              >
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-sm-12 col-md-4">
+              <h4>SMAN 9 Tangerang Selatan</h4>
+              <p>2010 - 2013</p>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <h4>Science Major</h4>
+              <p>
+                I built my first PC and learned how to make a blog using CMS
+                when i was in Junior High School. Since then, I have loved a
+                computer-based lesson.
+              </p>
+              <em class="col1"
+                ><i class="fas fa-map-marker-alt pr-2"></i>South Tangerang</em
+              >
+            </div>
+          </div>
+        </div>
+        <hr class="border-light my-5" />
+        <h3 class="text-left mb-4 col1">Carrer</h3>
+        <div class="text-left">
+          <div class="row mb-3">
+            <div class="col-sm-12 col-md-4">
+              <h4>ICT</h4>
+              <p>
+                Mar 2014 - Aug 2017 <em>(Freelance)</em> <br />Sep 2017 -
+                Current <em>(Full Time)</em>
+              </p>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <h4>Senior Office Administrator</h4>
+              <p>
+                Working on one of the biggest diecast online auctioneers based
+                on social media in Indonesia. I work as Senior Office
+                Administrator who responsible for data distribution, store
+                paperwork, documents, computer-based information and submit
+                monthly final sales reports.
+              </p>
+              <em class="col1"
+                ><i class="fas fa-map-marker-alt pr-2"></i>South Tangerang</em
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of experience section -->
+
+    <!-- skills section -->
+    <div class="" id="skills">
+      <div class="text-center">
+        <h2 class="col1"><strong>Skills</strong></h2>
+        <p class="my-3">
+          <em
+            >"The interaction of knowledge and skills with experience is key to
+            learning"
+            <br />
+            John Dewey - (Random Quotes on Internet)</em
+          >
+        </p>
+        <hr class="my-5" />
+        <h3 class="text-left mb-4 col1">Computer skills</h3>
+        <div class="text-left">
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <p>HTML 5</p>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 90%"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  90%
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <p>CSS 3</p>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 90%"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  90%
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <p>Bootstrap 4</p>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  80%
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <p>MySQL</p>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  80%
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <p>Java</p>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  80%
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <p>Javascript</p>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 70%"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  70%
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <p>PHP</p>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 60%"
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  60%
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <p>Oracle</p>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 60%"
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  60%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="text-left my-4 col1">Others</h3>
+        <div class="text-left">
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <p>Microsoft Office</p>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 90%"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  90%
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <p>Adobe Photoshop</p>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  80%
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <p>Macro Toolworks</p>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 75%"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  75%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="text-left my-4 col1">Languages</h3>
+        <div class="text-left">
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <p>Indonesia</p>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 100%"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  100%
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <p>English</p>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 90%"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  90%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end skills section -->
+
+    <!-- projects section -->
+    <div class="bg-dark text-light" id="projects">
+      <div class="text-center">
+        <h2 class="col1"><strong>Projects</strong></h2>
+        <p class="my-3">
+          Here, I will put all of my upcoming projects like blogs, computer
+          science stuff, and many more!
+        </p>
+        <hr class="border-light my-5" />
+        <div class="row">
+          <div class="col-sm-12 col-md-6 card-container" align="center">
+            <div class="card" style="width: 18rem">
+              <img src="img/map-2562138.jpg" class="card-img-top" alt="Blogs" />
+              <div class="card-body">
+                <h5 class="card-title text-dark">My Blogs</h5>
+                <p class="card-text text-dark">
+                  I love traveling, coffee, accoustic, and photography. So I
+                  decide to put all of my stuff on my website, all of my travel
+                  footage, Youtube video, and my story you will find it here!
+                  consider to support my website? you can follow or maybe
+                  subscribe my Youtube channel!
+                </p>
+                <a href="my-journey.html" class="btn btn-primary"
+                  >Check it now!</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 card-container" align="center">
+            <div class="card" style="width: 18rem">
+              <img
+                src="img/laptop-1478822.jpg"
+                class="card-img-top"
+                alt="computer science"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-dark">
+                  My Computer Science Implementations
+                </h5>
+                <p class="card-text text-dark">
+                  As a Computer Science student, I want to keep learning how to
+                  be a good programmer or developer by learn-to-code and
+                  code-to-learn. all stuff like encryption, hashing,
+                  compression, OTP and many more you will find it here!
+                </p>
+                <a href="computer-engineering.html" class="btn btn-primary"
+                  >Check it now!</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end projects section -->
+
+    <!-- parallax contact -->
+    <div class="bgimg-2" id="contact-parallax">
+      <div class="row h-100" style="margin: auto">
+        <div class="col-sm-12 my-auto" style="padding-left: 0">
+          <h1 class="display-4 text-light text-center">Contact</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact section -->
+    <div class="bg-dark text-light" style="min-height: 40%" id="contact">
+      <div class="text-center">
+        <p>
+          <em
+            >There's a lot of good cafe in Southern Jakarta. I love coffee!
+            maybe we can get in touch. Instagram message work best!</em
+          >
+        </p>
+        <a
+          href="index.html#home"
+          role="button"
+          class="btn btn-outline-light btn-sm mb-4"
+          >Back to top!</a
+        >
+        <p>
+          <i class="fas fa-envelope pr-2"></i>tritera.erlangga@gmail.com
+          <br />
+          <a
+            class="text-light"
+            href="https://fb.me/tritera.erlangga"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-square pr-2"></i
+            >https://fb.me/tritera.erlangga
+          </a>
+          <br />
+          <a
+            class="text-light"
+            href="https://www.linkedin.com/in/tritera-erlangga-0ab7b5183"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin pr-2"></i
+            >https://www.linkedin.com/in/tritera-erlangga-0ab7b5183
+          </a>
+          <br />
+          <a
+            class="text-light"
+            href="https://www.instagram.com/troyy213/"
+            target="_blank"
+          >
+            <i class="fab fa-instagram pr-2"></i
+            >https://www.instagram.com/troyy213/
+          </a>
         </p>
       </div>
     </div>
-    <hr class="my-5">
-    <p class="text-justify">I have an upcoming project on this website like put my Youtube video,
-      my travel footage and
-      implement all of <em>"Computer Science"</em> stuff like Encryption, Hashing, Compression and
-      many more. We can have a little chit chat and having some coffee if you want! if you consider
-      to support my website, you can click on the link below!</p>
-    <span>
-      <a href="#contact" role="button" class="btn btn-primary btn-sm mr-1">Contact</a>
-      <a href="https://www.paypal.me/triteraerlangga" role="button" class="btn btn-warning btn-sm ml-1"
-        target="_blank">Donate</a>
-    </span>
-  </div>
-  <!-- end of about section -->
 
-  <!-- experience section -->
-  <div class="bg-dark" id="experience">
-    <div class="text-light text-center">
-      <h2 class="col1"><strong>Experiences</strong></h2>
-      <p class="my-3"><em>"The single most powerful asset we all have is our mind. if it is trained
-          well, it can create enormous wealth in what seems to be an instant."
-          <br>
-          Robert T. Kiyosaki - Rich Dad Poor Dad</em></p>
-      <hr class="border-light my-5">
-      <h3 class="text-left mb-4 col1">Educations</h3>
-      <div class="text-left">
-        <div class="row mb-3">
-          <div class="col-sm-12 col-md-4">
-            <h4>Niomic</h4>
-            <p>Jan 2019 - Current</p>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <h4>Online Coding Bootcamp</h4>
-            <p>The lesson mainly focuses on web programming, even though I already have the basics
-              of web programming on campus, I need to keep learning and practice more, and surely,
-              many things that I didn't learn on campus found here like AWS, GCP, Golang, Chatbot,
-              and I always believe learning from many sources are the best way to improve your
-              knowledge.
-            </p>
-            <em class="col1"><i class="fas fa-map-marker-alt pr-2"></i>Online</em>
-          </div>
-        </div>
-        <div class="row mb-3">
-          <div class="col-sm-12 col-md-4">
-            <h4>Budiluhur University</h4>
-            <p>Sep 2014 - Mar 2018</p>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <h4>Bachelor (S1) - Computer Science</h4>
-            <p>My study was mainly focused on Java-based programming, and my first program was a
-              simple encryption desktop application using a Caesar cipher algorithm. Using the same
-              principle, I learned how to implement AES-256 encryption for database security in my
-              thesis.
-            </p>
-            <em class="col1"><i class="fas fa-map-marker-alt pr-2"></i>South Jakarta</em>
-          </div>
-        </div>
-        <div class="row mb-3">
-          <div class="col-sm-12 col-md-4">
-            <h4>SMAN 9 Tangerang Selatan</h4>
-            <p>2010 - 2013</p>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <h4>Science Major</h4>
-            <p>I built my first PC and learned how to make a blog using CMS when i was in Junior
-              High School. Since then, I have loved a computer-based lesson.
-            </p>
-            <em class="col1"><i class="fas fa-map-marker-alt pr-2"></i>South Tangerang</em>
-          </div>
-        </div>
-      </div>
-      <hr class="border-light my-5">
-      <h3 class="text-left mb-4 col1">Carrer</h3>
-      <div class="text-left">
-        <div class="row mb-3">
-          <div class="col-sm-12 col-md-4">
-            <h4>ICT</h4>
-            <p>Mar 2014 - Aug 2017 <em>(Freelance)</em>
-              <br>Sep 2017 - Current <em>(Full Time)</em></p>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <h4>Senior Office Administrator</h4>
-            <p>Working on one of the biggest diecast online auctioneers based on social media in
-              Indonesia. I work as Senior Office Administrator who responsible for data
-              distribution, store paperwork, documents, computer-based information and submit
-              monthly final sales reports.
-            </p>
-            <em class="col1"><i class="fas fa-map-marker-alt pr-2"></i>South Tangerang</em>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end of experience section -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <script>
+    const dob = new Date('10/28/1995').getTime()
+    const now = new Date().getTime()
+    const ageDiff = Math.floor((now - dob) / (1000 * 60 * 60 * 24 * 365))
 
-  <!-- skills section -->
-  <div class="" id="skills">
-    <div class="text-center">
-      <h2 class="col1"><strong>Skills</strong></h2>
-      <p class="my-3"><em>"The interaction of knowledge and skills with experience is key to
-          learning"
-          <br>
-          John Dewey - (Random Quotes on Internet)</em></p>
-      <hr class="my-5">
-      <h3 class="text-left mb-4 col1">Computer skills</h3>
-      <div class="text-left">
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <p>HTML 5</p>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
-                aria-valuemin="0" aria-valuemax="100">90%</div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <p>CSS 3</p>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
-                aria-valuemin="0" aria-valuemax="100">90%</div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <p>Bootstrap 4</p>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
-                aria-valuemin="0" aria-valuemax="100">80%</div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <p>MySQL</p>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
-                aria-valuemin="0" aria-valuemax="100">80%</div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <p>Java</p>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
-                aria-valuemin="0" aria-valuemax="100">80%</div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <p>Javascript</p>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
-                aria-valuemin="0" aria-valuemax="100">70%</div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <p>PHP</p>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60"
-                aria-valuemin="0" aria-valuemax="100">60%</div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <p>Oracle</p>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60"
-                aria-valuemin="0" aria-valuemax="100">60%</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <h3 class="text-left my-4 col1">Others</h3>
-      <div class="text-left">
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <p>Microsoft Office</p>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
-                aria-valuemin="0" aria-valuemax="100">90%</div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <p>Adobe Photoshop</p>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
-                aria-valuemin="0" aria-valuemax="100">80%</div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <p>Macro Toolworks</p>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
-                aria-valuemin="0" aria-valuemax="100">75%</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <h3 class="text-left my-4 col1">Languages</h3>
-      <div class="text-left">
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <p>Indonesia</p>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
-                aria-valuemin="0" aria-valuemax="100">100%</div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <p>English</p>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
-                aria-valuemin="0" aria-valuemax="100">90%</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end skills section -->
-
-  <!-- projects section -->
-  <div class="bg-dark text-light" id="projects">
-    <div class="text-center">
-      <h2 class="col1"><strong>Projects</strong></h2>
-      <p class="my-3">Here, I will put all of my upcoming projects like blogs, computer science
-        stuff, and many more!</p>
-      <hr class="border-light my-5">
-      <div class="row">
-        <div class="col-sm-12 col-md-6" align="center">
-          <div class="card" style="width: 18rem;">
-            <img src="img/map-2562138.jpg" class="card-img-top" alt="Blogs">
-            <div class="card-body">
-              <h5 class="card-title text-dark">My Blogs</h5>
-              <p class="card-text text-dark">I love traveling, coffee, accoustic, and photography.
-                So I decide to put all of my stuff on my website, all of my travel footage, Youtube
-                video, and my story you will find it here! consider to support my website? you can
-                follow or maybe subscribe my Youtube channel!</p>
-              <a href="my-journey.html" class="btn btn-primary">Check it now!</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6" align="center">
-          <div class="card" style="width: 18rem;">
-            <img src="img/laptop-1478822.jpg" class="card-img-top" alt="computer science">
-            <div class="card-body">
-              <h5 class="card-title text-dark">My Computer Science Implementations</h5>
-              <p class="card-text text-dark">As a Computer Science student, I want to keep learning
-                how to be a good programmer or developer by learn-to-code and code-to-learn. all
-                stuff like encryption, hashing, compression, OTP and many more you will find it
-                here!</p>
-              <a href="computer-engineering.html" class="btn btn-primary">Check it now!</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end projects section -->
-
-  <!-- parallax contact -->
-  <div class="bgimg-2" id="contact-parallax">
-    <div class="row h-100" style="margin: auto">
-      <div class="col-sm-12 my-auto" style="padding-left: 0">
-        <h1 class="display-4 text-light text-center">Contact</h1>
-      </div>
-    </div>
-  </div>
-
-  <!-- contact section -->
-  <div class="bg-dark text-light" style="min-height: 40%;" id="contact">
-    <div class="text-center">
-      <p><em>There's a lot of good cafe in Southern Jakarta. I love coffee! maybe we can get in
-          touch. Instagram message work best!</em>
-      </p>
-      <a href="index.html#home" role="button" class="btn btn-outline-light btn-sm mb-4">Back to
-        top!</a>
-      <p><i class="fas fa-envelope pr-2"></i>tritera.erlangga@gmail.com
-        <br>
-        <a class="text-light" href="https://fb.me/tritera.erlangga" target="_blank">
-          <i class="fab fa-facebook-square pr-2"></i>https://fb.me/tritera.erlangga
-        </a>
-        <br>
-        <a class="text-light" href="https://www.linkedin.com/in/tritera-erlangga-0ab7b5183" target="_blank">
-          <i class="fab fa-linkedin pr-2"></i>https://www.linkedin.com/in/tritera-erlangga-0ab7b5183
-        </a>
-        <br>
-        <a class="text-light" href="https://www.instagram.com/troyy213/" target="_blank">
-          <i class="fab fa-instagram pr-2"></i>https://www.instagram.com/troyy213/
-        </a>
-      </p>
-    </div>
-  </div>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-</body>
-
+    document.getElementById('age').innerHTML = `${ageDiff} Years`
+  </script>
 </html>
